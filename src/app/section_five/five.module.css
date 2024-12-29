@@ -1,0 +1,49 @@
+.sectionFive {
+    margin-top: 45px;
+}
+
+.fiveGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 95px;
+    align-items: center;
+}
+
+.fiveGrid h3 {
+    font-family: "Montserrat", serif;
+    color: #000100;
+    font-weight: 600;
+    padding-bottom: 20px;
+    font-size: 1.458rem;
+}
+
+.fiveGrid li {
+    display: flex;
+    gap: 8px;
+    padding: 10px 0;
+    align-items: center;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@media (max-width: 1000px) {
+    .fiveGrid {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 850px) {
+    .fiveGrid {
+        margin-left: 20px;
+    }
+
+    .fiveGrid li {
+        padding: 8px 0;
+    }
+
+    .sectionFive {
+        margin-top: 30px;
+    }
+}

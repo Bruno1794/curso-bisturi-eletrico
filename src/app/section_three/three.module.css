@@ -1,0 +1,130 @@
+.gridThree {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns:530px 1fr;
+    margin-left: 95px;
+
+    align-items: center;
+}
+
+.gridThree h2 {
+    font-family: "Montserrat", serif;
+    color: #000100;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.gridThree li {
+    display: flex;
+    gap: 8px;
+    padding: 0 15px 15px 0;
+    align-items: center;
+    font-family: "Poppins", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 0.875rem;
+    text-transform: capitalize;
+
+}
+.ThreeImg{
+    border-radius:10px;
+}
+.ThreeBtn{
+    margin-top: 20px;
+    width: 500px;
+    justify-self: center;
+}
+.ThreeBtn a{
+    display: block;
+    font-size: 1.285rem;
+    padding: 12px;
+    margin-bottom: 20px;
+    background: #053B05;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+    box-shadow: 2px 2px 5px #000;
+    height: 35px;
+    align-content: center;
+
+
+
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+    position: relative;
+}
+.ThreeBtn a:hover{
+    background: #032C14;
+
+}
+.ThreeBtn a:before{
+    content: "";
+    width: 26px;
+    height: 26px;
+    background: url("/img/iconeBtn.png");
+    background-size: cover;
+    position: absolute;
+    left: 150px;
+    top: 17px
+}
+@media (max-width: 950px) {
+    .ThreeBtn {
+
+        justify-self: start;
+        margin-left: 20px;
+    }
+    .ThreeImg{
+        width: 100%;
+        height: 100%;
+    }
+}
+@media (max-width: 950px) {
+    .ThreeBtn {
+        width: 700px;
+        justify-self: center;
+
+    }
+    .ThreeBtn a:before{left:245px;
+        top:17px;
+    }
+    .ThreeImg{
+        justify-self: center;
+    }
+}
+
+@media (max-width: 600px) {
+    .ThreeBtn {
+        width: 400px;
+        justify-self: center;
+
+    }
+    .ThreeBtn a:before{
+        left:95px;
+        top:17px;
+    }
+}
+@media (max-width: 450px) {
+    .ThreeBtn {
+        width: 300px;
+        justify-self: center;
+
+    }
+    .ThreeBtn a:before{
+        left:45px;
+        top:17px;
+    }
+}
+
+@media (max-width: 950px) {
+    .gridThree {
+        margin: 35px 0 0 20px;
+        display: block;
+    }
+    .gridThree h2{
+        font-size: 1.375rem;
+    }
+
+}
+

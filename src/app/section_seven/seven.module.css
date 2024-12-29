@@ -1,0 +1,75 @@
+.SectionSeven{
+    background: #041C0E;
+    width: 100%;
+    margin-top: 50px;
+}
+.SevenConteudo{
+
+    padding: 35px 0;
+}
+.TituloSeven{
+    text-align: center;
+    color: #E9E9E9;
+    font-family: "Montserrat", serif;
+    font-weight: 600;
+    margin-left: 95px;
+}
+.TituloSeven span{
+    background: #E9B46E;
+    padding: 3px;
+}
+.SevenConteudo p{
+    color: #fff;
+    font-family: "Poppins", serif;
+    font-weight: 200;
+    font-style: normal;
+    margin-left: 95px;
+}
+.btnSeven{
+    display: block;
+    place-self: center;
+    color: #fff;
+    padding: 12px 150px;
+    background: #E9B46E;
+    border-radius: 5px;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    margin-top: 35px;
+    font-style: normal;
+    position: relative;
+
+}
+.btnSeven:hover{
+    background: #D8A057
+}
+.btnSeven:before{
+    content: "";
+    background: url("/img/iconeBtn.png") no-repeat center center;
+    background-size: cover;
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    left: 115px;
+    top:11px
+}
+@media (max-width: 800px) {
+    .SevenConteudo p{
+        margin-left: 20px;
+        padding: 10px;
+        font-size: 1.123rem;
+    }
+    .TituloSeven{
+        margin-left: 20px;
+
+    }
+
+}
+@media (max-width: 420px) {
+    .btnSeven{
+        padding: 12px 100px;
+
+    }
+    .btnSeven:before{
+        left: 65px;
+    }
+}

@@ -1,0 +1,19 @@
+.FooterTwelve{
+    text-align: center;
+    background: #E9E9E9;
+    width: 100%;
+}
+.FooterTwelve p{
+    margin: 0 0 0 95px;
+    font-family: "Montserrat", serif;
+    color: #332802;
+    font-weight: 300;
+    font-size: 0.875rem;
+
+}
+@media (max-width: 600px) {
+    .FooterTwelve p{
+        margin-left: 20px;
+    }
+    
+}

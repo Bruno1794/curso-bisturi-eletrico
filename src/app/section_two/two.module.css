@@ -1,0 +1,51 @@
+.sectionTwo {
+    background: #041C0E;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.sectionConteudo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 70px;
+    align-items: center;
+
+}
+
+.titulo {
+    font-family: "Montserrat", serif;
+    color: #E9E9E9;
+    font-weight: 400;
+    margin-left: 95px;
+
+}
+
+.sectionConteudo p {
+    color: #E9E9E9;
+    margin-left: 95px;
+    font-family: "Poppins", serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 0.875rem;
+
+}
+
+@media (max-width: 945px) {
+    .sectionConteudo {
+        display: block;
+    }
+    .titulo{
+        margin-left: 20px;
+
+    }
+
+    .sectionConteudo p{
+        margin-left: 20px;
+
+    }
+
+    .conteudoImg {
+        margin-left: 20px;
+
+    }
+}

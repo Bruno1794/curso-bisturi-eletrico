@@ -1,0 +1,82 @@
+.sectionSix {
+    margin-top: 45px;
+}
+
+.sectionSix p {
+    text-align: center;
+}
+
+.Vantagens {
+    font-size: 1.258rem;
+    letter-spacing: 0.875rem;
+    font-family: "Montserrat", serif;
+    color: #8E5F21;
+    font-weight: 600;
+    margin-left: 95px;
+
+}
+
+.txtSix {
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.258rem;
+    margin-left: 95px;
+
+}
+
+.sectionSix li {
+    display: flex;
+    gap: 8px;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 10px 0;
+    align-items: center;
+    margin-left: 95px;
+}
+
+.itens span {
+    display: flex;
+    padding: 5px;
+    font-style: italic;
+    margin-left: 135px;
+    font-family: "Poppins", serif;
+    font-weight: 300;
+    font-size: 0.875rem;
+    border-bottom: 1px #041C0E solid;
+
+}
+
+@media (max-width: 920px) {
+    .sectionSix {
+        margin: 20px;
+    }
+
+}
+
+@media (max-width: 920px) {
+    .Vantagens {
+        margin-left: 20px
+
+    }
+
+    .txtSix {
+        margin-left: 20px
+
+    }
+
+    .txtSix {
+        font-size: 1rem;
+
+    }
+
+    .sectionSix li {
+        margin-left: 20px
+    }
+
+    .itens span {
+        margin-left: 65px
+    }
+
+}

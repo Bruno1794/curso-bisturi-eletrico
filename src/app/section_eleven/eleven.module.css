@@ -1,0 +1,122 @@
+.ElevenSction {
+    background: #041C0E;
+    width: 100%;
+}
+
+.ElevenConteudo {
+    padding: 40px 0;
+}
+
+.ElevenConteudo h3 {
+    margin-left: 95px;
+    text-align: center;
+    font-size: 2.3rem;
+    color: #EEE0CE;
+    font-family: "Montserrat", serif;
+    font-weight: 600;
+}
+
+.precoElevel {
+    padding-top: 15px;
+    margin-left: 95px;
+    text-align: center;
+    color: #EEE0CE;
+    font-size: 6rem;
+    font-family: "Poppins", serif;
+    font-weight: 700;
+    font-style: normal;
+    position: relative;
+    place-self: center;
+
+}
+
+.precoElevel:before {
+    content: "R$";
+    position: absolute;
+    left: -40px;
+    top: 80px;
+    font-size: 1.875rem;
+
+}
+
+.precoElevel:after {
+    content: ",00";
+    position: absolute;
+    right: -30px;
+    top: 90px;
+    font-size: 1.875rem;
+
+}
+
+.ElevenConteudo a {
+    display: block;
+    text-align: center;
+    margin-left: 95px;
+    background: #E9B46E;
+    padding: 16px 75px;
+    color: #F5F6F5;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+    border-radius: 8px;
+    place-self: center;
+    position: relative;
+
+}
+
+.ElevenConteudo a:before {
+    content: "";
+    position: absolute;
+    background: url("/img/iconeBtn.png") no-repeat center center;
+    background-size: cover;
+    width: 32px;
+    height: 32px;
+    left: 35px;
+    top: 12px;
+
+}
+
+.ElevenConteudo a:hover {
+    background: #D8A057;
+}
+
+.ElevenConteudo img {
+
+    padding: 30px;
+    margin-left: 95px;
+    place-self: center;
+}
+
+@media (max-width: 720px) {
+    .ElevenConteudo h3 {
+        margin-left: 20px;
+    }
+
+    .precoElevel {
+        margin-left: 20px;
+    }
+
+    .ElevenConteudo a {
+        margin-left: 20px;
+    }
+
+    .ElevenConteudo img {
+        margin: 20px;
+    }
+}
+
+@media (max-width: 500px) {
+    .ElevenConteudo a {
+        padding: 16px 15px;
+
+    }
+
+    .ElevenConteudo a:before {
+        display: none;
+    }
+
+    .ElevenConteudo img {
+        width: 300px;
+        height: 50px;
+    }
+}
